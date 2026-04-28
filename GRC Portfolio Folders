@@ -1,0 +1,21 @@
+/grc-portfolio
+├── README.md
+├── artifacts/
+│   ├── policies/
+│   │   ├── information-security-policy.md
+│   │   ├── acceptable-use-policy.md
+│   │   └── access-control-policy.md
+│   ├── risk-management/
+│   │   ├── risk-register.xlsx
+│   │   └── risk-assessment-report.md (or .pdf)
+│   ├── compliance/
+│   │   ├── nist-csf-gap-assessment.xlsx
+│   │   ├── iso27001-soc2-mapping.xlsx
+│   │   └── compliance-checklist.md
+│   ├── audit/
+│   │   └── audit-checklist.md
+│   └── templates/
+│       ├── third-party-risk-template.xlsx
+│       └── incident-response-playbook.md
+├── images/ (optional: screenshots of risk matrices, diagrams)
+└── LICENSE (MIT or Creative Commons)
