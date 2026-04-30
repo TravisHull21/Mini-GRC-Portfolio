@@ -1,0 +1,102 @@
+Mock SOC 2 Internal Audit Report
+Company:
+TechNova Solutions
+Audit Title:
+SOC 2 – Logical Access Controls Audit
+Trust Services Criteria (TSC):
+Security
+Audit Period:
+March 1 – March 15, 2026
+Auditor:
+Travis Hull – GRC Analyst
+1. Objective
+The objective of this audit was to assess whether logical access controls at TechNova Solutions are designed and operating effectively to meet SOC 2 Security Trust Services Criteria related to user access, authentication, and authorization.
+
+2. Scope
+This audit focused on logical access controls supporting:
+User provisioning and deprovisioning
+Role-based access control (RBAC)
+Privileged access management
+Periodic access reviews
+Systems Reviewed:
+Identity & Access Management (IAM) system
+Internal SaaS applications
+HR onboarding/offboarding records
+
+3. Applicable SOC 2 Criteria
+The following SOC 2 Trust Services Criteria were evaluated:
+CC6.1: Logical access security software, infrastructure, and architectures are implemented
+CC6.2: Prior to issuing system credentials, access is authorized and documented
+CC6.3: Access is removed when no longer required
+CC6.6: Logical access security measures are implemented to protect against unauthorized access
+
+4. Methodology
+The audit was conducted using the following procedures:
+Reviewed access control and security policies
+Sampled 15 user accounts across departments
+Inspected onboarding and termination records
+Evaluated user roles and privilege assignments
+Assessed evidence of periodic access reviews
+Mapped controls to SOC 2 Trust Services Criteria
+
+5. Control Testing & Results
+Control 1: User Deprovisioning (CC6.3)
+Control Description:
+User access is removed promptly upon employee termination.
+Test Performed:
+Reviewed 15 terminated user accounts and compared termination dates to access removal dates.
+Result: ❌ Failed
+Observation:
+3 users retained access beyond 7 days after termination.
+Control 2: Access Authorization (CC6.2)
+Control Description:
+User access is approved and documented prior to provisioning.
+Test Performed:
+Reviewed onboarding records for approval documentation.
+Result: ✅ Passed
+Observation:
+All sampled users had documented approval before access was granted.
+Control 3: Least Privilege Enforcement (CC6.1 / CC6.6)
+Control Description:
+Access is restricted based on job responsibilities.
+Test Performed:
+Reviewed user roles and privileges for appropriateness.
+Result: ⚠️ Partially Effective
+Observation:
+Some users had administrative access beyond job requirements.
+Control 4: Periodic Access Reviews (CC6.1)
+Control Description:
+Management performs periodic reviews of user access.
+Test Performed:
+Requested evidence of quarterly access reviews.
+Result: ❌ Failed
+Observation:
+No documented evidence of formal access reviews.
+
+6. Findings & Recommendations
+Finding 1: Delayed User Deprovisioning (CC6.3)
+Risk Level: High
+Risk: Unauthorized system access post-termination
+Recommendation: Automate deprovisioning via HR system integration
+Finding 2: Excessive Privileges (CC6.1 / CC6.6)
+Risk Level: Medium
+Risk: Increased risk of misuse or system changes
+Recommendation: Enforce least privilege and implement role reviews
+Finding 3: Lack of Access Reviews (CC6.1)
+Risk Level: Medium
+Risk: Undetected inappropriate access
+Recommendation: Implement quarterly access certification process
+
+7. Positive Observations
+Documented access control policies are in place
+Multi-factor authentication (MFA) is enforced
+Access approval process is consistently followed
+
+8. Conclusion
+TechNova Solutions has implemented key logical access controls aligned with SOC 2 Security criteria. However, deficiencies in deprovisioning and access review processes indicate that certain controls are not operating effectively. Remediation of these issues will strengthen compliance posture and reduce access-related risks.
+
+9. Risk Summary
+Finding	SOC 2 Criteria	Risk Level
+Delayed Deprovisioning	CC6.3	High
+Excessive Privileges	CC6.1 / CC6.6	Medium
+No Access Reviews	CC6.1	Medium
