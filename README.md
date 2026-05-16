@@ -2,6 +2,7 @@ Mini-GRC-Portfolio/
 │
 ├── README.md
 ├── LICENSE
+│
 ├── About/
 │   ├── About_Me.md
 │   └── TravisHullGRC.md
@@ -21,7 +22,7 @@ Mini-GRC-Portfolio/
 │   ├── GRC Risk Register.pdf
 │   ├── risk-register.pdf
 │   ├── risk-assessment-report.md
-│   ├── risk-heat-map.md
+│   └── risk-heat-map.md
 │
 ├── Controls/
 │   ├── GRC Control Mapping Table.pdf
@@ -31,14 +32,14 @@ Mini-GRC-Portfolio/
 │
 ├── Audits/
 │   ├── GRC Audit Tracker.pdf
-│   ├── Mock SOC 2 Internal Audit Report
-│   ├── audit-checklist.md
+│   ├── Mock SOC 2 Internal Audit Report.pdf
+│   └── audit-checklist.md
 │
 ├── Evidence/
-│   ├── GRC Evidence Map.pdf
+│   └── GRC Evidence Map.pdf
 │
 ├── Third-Party-Risk/
 │   └── third-party-risk-assessment-template.md
 │
 └── Governance-Checklists/
-    ├── GRC Policy Gap Checklist.pdf
+    └── GRC Policy Gap Checklist.pdf
